@@ -2,12 +2,16 @@ import domain.entity.Calculator;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
-
 import org.junit.Test;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 import java.util.Iterator;
 
+/**
+ * @author Sup_4eg
+ * @see Calculator
+ * Test class for Calculator.java
+ */
 public class TestCalculator {
     Calculator mCalculator = mock(Calculator.class);
 

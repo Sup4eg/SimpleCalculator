@@ -2,6 +2,10 @@ package domain.entity;
 
 import domain.repository.ICalculator;
 
+/**
+ * @author Sup_4eg
+ * Simple calculator
+ */
 public class Calculator {
     private ICalculator iCalculator;
     public Calculator(ICalculator iCalculator) {
